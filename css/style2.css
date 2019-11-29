@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+body {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  -webkit-transform: perspective(900px);
+  -webkit-transform-style: preserve-3d;
+}
+
+.title h1{
+  font-size:65px;
+  font-family: 'Righteous', sans-serif;
+  text-align: center
+
+}
+.card1 {
+  text-align:center;
+  position: absolute;
+  left: 150px;
+  width: 330px;
+  height: 430px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: linear-gradient(rgb(255, 140, 0),rgb(227,144,91));
+  transition:.6s;
+  
+  transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+  box-shadow: 0px 20px 60px rgba(0,0,0, 0.5);
+}
+.card1:hover{
+  transform: rotatex(0deg);
+  transition:.6s;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+.card1 img{
+  transform: translateY(15px);
+  width:160px;
+  height:215px;
+}
+
+h2{
+    color: white;
+    font-family: 'Righteous', sans-serif;
+    font-size: 40px;
+    text-align: center
+    
+}
+
+.card2 {
+  text-align:center;
+  position: absolute;
+  left: 600px;
+  width: 330px;
+  height: 430px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: linear-gradient(rgb(93,94,170),rgb(93,66,103));
+  animation: animate 1s linear infinite;
+  transition:.6s;
+  
+  transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+  box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+.card2:hover{
+   transform: rotatex(0deg);
+  transition:.6s;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+.card2 img{
+  transform: translateY(15px);
+  width:300px;
+  height:200px;
+}
+
+h3{
+    
+    color: white;
+    font-family: 'Righteous', sans-serif;
+    font-size: 40px;
+    text-align: center
+    
+}
+
+
+.card3 {
+  text-align:center;
+  position: absolute;
+  left: 1050px;
+  width: 330px;
+  height: 430px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: linear-gradient(#ba03ca, #ca1414);
+  transition:.6s;
+  
+  transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+  box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+.card3:hover{
+   transform: rotatex(0deg);
+  transition:.6s;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+.card3 img{
+  transform: translateY(15px);
+  width:300px;
+  height:200px;
+}
+
+h4{
+    color: white;
+    font-family: 'Righteous', sans-serif;
+    font-size: 40px;
+    text-align: center
+    
+}
+
+.footer{
+  position: absolute;
+  top: 500px;
+  margin: 10px;
+  width: 100%;
+   text-align: center;
+}
+.footer h2{
+  font-size:18px;
+  font-family: 'Righteous', sans-serif;
+  
+}
